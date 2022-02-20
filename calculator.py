@@ -74,7 +74,7 @@ plus=Button(text="+",font="14",command=Plus_click)
 plus.place(x=200, y=310, width=40, height=40)
 #MIN
 def Min_click():
-     global a,b
+    global a,b
     a=float(ent.get())
     b="-"
     ent.insert(END, "-")
@@ -83,7 +83,7 @@ min=Button(text="-",font="14",command=Min_click)
 min.place(x=200, y=250, width=40, height=40)
 #Multi
 def Multi_click() :
-     global a,b
+    global a,b
     a=float(ent.get())
     b="*"
     ent.insert(END, "*")
@@ -92,7 +92,7 @@ Multi=Button(text="*",font="14",command=Multi_click)
 Multi.place(x=200, y=200, width=40, height=40)
 #Division
 def Division_click():
-     global a,b
+    global a,b
     a=float(ent.get())
     b="/"
     ent.insert(END, "/")
