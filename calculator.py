@@ -118,7 +118,7 @@ def Equal_click():
             a=a/c
             ent.insert(END,a)
         else:
-            ent.insert(END,"помилка")
+            ent.insert(END,"ERROR")
 Equal=Button(text="=",font="14",command=Equal_click)
 Equal.place(x=200, y=100, width=40, height=40)
 #Radical
@@ -130,7 +130,7 @@ def Radical_click() :
         c=sqrt(a)
         ent.insert(END, c)
     else:
-        ent.insert(0, "ПОМИЛКА")
+        ent.insert(0, "ERROR")
 img=PhotoImage(file='radical.png')
 Radical=Button(image=img,command=Radical_click)
 Radical.place(x=80, y=100, width=40, height=40)
